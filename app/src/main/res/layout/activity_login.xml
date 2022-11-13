@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="23sp"
+        android:textSize="20dp"
+        android:text="Login"
+        android:textStyle="bold"/>
+
+<!--    Logonya  -->
+    <View
+        android:id="@+id/logo"
+        android:layout_width="205dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/androidlogo_png"/>
+
+    <View
+        android:id="@+id/bg"
+        android:layout_width="324dp"
+        android:layout_height="210dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="209dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/e_mail"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="212dp"
+        android:gravity="center"
+        android:text="E-mail"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+<!--  E-mail  -->
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="242dp"
+        android:background="@color/white"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!--  Password  -->
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="330dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+<!--  Tombol Loginnya  -->
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="120dp"
+        android:text="login"
+        android:background="@color/green"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sudah punya akun?"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signup2"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="13dp"
+        android:textColor="@color/blue2"
+        android:text="Sign up" />
+
+
+</RelativeLayout>

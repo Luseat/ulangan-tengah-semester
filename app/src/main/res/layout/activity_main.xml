@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--  Backgroundnya  -->
+    <View
+        android:id="@+id/backgrond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8AE4FC" />
+
+    <TextView
+        android:id="@+id/SelamatDatang"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="23sp"
+        android:textSize="20dp"
+        android:text="Selamat Datang"
+        android:textStyle="bold" />
+<!-- Logonya -->
+    <View
+        android:id="@+id/logo"
+        android:layout_width="352dp"
+        android:layout_height="402dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/androidlogo_png" />
+
+<!--    Tombol Login  -->
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="120dp"
+        android:background="@color/green"
+        android:text="login"
+        android:textStyle="bold"
+        android:onClick="pindah2"/>
+
+<!--    Tombol Sign Up   -->
+    <Button
+        android:id="@+id/Signup"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/blue"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:onClick="ganti2"/>
+
+</RelativeLayout>
